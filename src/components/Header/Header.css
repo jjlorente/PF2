@@ -27,3 +27,7 @@ header {
     align-items: center;
     gap: 2rem;
 }
+
+.flag-icon {
+    width: 2.2rem;
+}

@@ -10,7 +10,7 @@ export const Header = () => {
         <header>
           <div className='header-container'>
             <img src="../../../src/assets/1.png" alt="Image of the logo for the website" width={200}/>
-            <div style={{display:"flex", justifyContent:"space-between"}}>
+            <div style={{display:"flex", justifyContent:"space-between", gap:"1rem"}}>
               <nav className='nav-header'>
                 <ul className='ul-header'>
                   <li><a href="#">INICIO</a></li>
@@ -20,6 +20,10 @@ export const Header = () => {
                   <li><a href="#">CONTÁCTAME</a></li>
                 </ul>
               </nav>
+              <div style={{display:"flex"}}>
+                <span className="flag-icon flag-icon-gb inactive-flag" id="flag-en"></span>
+                <span className="flag-icon flag-icon-es" id="flag-es"></span>
+              </div>
             </div>
           </div>
         </header>
