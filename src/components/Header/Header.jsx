@@ -1,10 +1,28 @@
 import React from 'react'
 import './Header.css'
+import "@fortawesome/fontawesome-svg-core"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFlag } from '@fortawesome/free-solid-svg-icons';
 
 export const Header = () => {
   return (
     <>
-        <header>Header</header>
+        <header>
+          <div className='header-container'>
+            <img src="../../../src/assets/1.png" alt="Image of the logo for the website" width={200}/>
+            <div style={{display:"flex", justifyContent:"space-between"}}>
+              <nav className='nav-header'>
+                <ul className='ul-header'>
+                  <li><a href="#">INICIO</a></li>
+                  <li><a href="#">SOBRE MÍ</a></li>
+                  <li><a href="#">PROYECTOS</a></li>
+                  <li><a href="#">SKILLS</a></li>
+                  <li><a href="#">CONTÁCTAME</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
     </>
   )
 }
