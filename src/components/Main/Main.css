@@ -1,12 +1,23 @@
 .Main {
-    background-color: rgb(12, 26, 26);
-    max-width: 1224px;
+    /*background-color: rgb(12, 26, 26);*/
+    max-width: 1124px;
     display: flex;
     margin: auto;
     padding: 0 1rem;
+    margin-top: 140px;
+    font-family: 'Syne', sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+    height: auto;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
 }
-
-@keyframes waving-hand {
+h1{
+    padding: 0;
+    margin: 0;
+}
+@keyframes Waving-hand {
     0% {
         transform: rotate(0);
     }
@@ -14,13 +25,14 @@
         transform: rotate(14deg);
     }
     20% {
-        transform: rotate(-8deg);
+        transform: rotate(-5deg);
     }
+    
     30% {
         transform: rotate(14deg);
     }
     40% {
-        transform: rotate(-4deg);
+        transform: rotate(-5deg);
     }
     50% {
         transform: rotate(10deg);
@@ -30,11 +42,109 @@
     }
     100% {
         transform: rotate(0);
+    } 
+}
+
+#hand {
+    display: flex;
+    animation: Waving-hand 2.5s infinite !important;
+    font-size:3.3rem;
+}
+
+.title-container {
+    font-size: 2.2rem;
+}
+
+.Main p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.Main a{
+    background-color: #393B4E;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.cv {
+    padding: 5px 20px;
+    font-size: 1.2rem;
+}
+
+.fab {
+    padding: 5px 10px;
+    font-size: 2.5rem;
+}
+
+.Main a:hover {
+    color: #1CCA73;
+    cursor: pointer;
+    scale: 1.05;
+    background-color: #464861;
+}
+
+.Main img {
+    max-height:400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 3px #1cca7363;
+}
+
+@media screen and (max-width: 920px) {
+    .Main img {
+        height: 350px;
+    }
+    .title-container {
+        font-size: 1.7rem;
+    }
+    .Main p{
+        font-size: 1rem;
+    }
+
+    #hand {
+        font-size:2.5rem;
     }
 }
 
-.hand {
-    animation: waving-hand 2.5s ease infinite !important;
-    transform-origin: 70% 70%;
+@media screen and (max-width: 750px) {
+    .Main img {
+        height: 300px;
+    }
+    .title-container {
+        font-size: 1.5rem;
+    }
+
+    #hand {
+        font-size:2.2rem;
+    }
 }
 
+@media screen and (max-width: 660px) {
+    .Main img {
+        display: none;
+    }
+    .cv {
+        padding: 5px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .fab {
+        padding: 5px 10px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .title-container {
+        font-size: 1rem;
+    }
+
+    #hand {
+        font-size:1.6rem;
+    }
+}

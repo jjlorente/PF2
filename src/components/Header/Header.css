@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1224px;
+    max-width: 1124px;
 }
 
 .nav-header {
@@ -164,4 +164,13 @@ li:hover{
 }
 .hiddenImg{
     opacity: 0;
+}
+
+@media screen and (max-width: 300px) {
+    .logo {
+        display: none;
+    }
+    .header-container{
+        justify-content: end;
+    }
 }

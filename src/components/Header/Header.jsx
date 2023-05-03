@@ -34,15 +34,15 @@ export const Header = () => {
     <>
         <header>
           <div className='header-container'>
-            <img src={`../../../src/assets/logo-joel.png`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} alt="Image of the logo for the website" width={200}/>
+            <img className="logo" src={`../../../src/assets/logo-joel.png`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} alt="Image of the logo for the website" width={200}/>
             <div className='nav-container'>
               <nav className='nav-header'>
                 <ul className='ul-header'>
-                  <li><a href="#">INICIO</a></li>
-                  <li><a href="#">SOBRE MÍ</a></li>
-                  <li><a href="#">PROYECTOS</a></li>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT ME</a></li>
+                  <li><a href="#">PROJECTS</a></li>
                   <li><a href="#">SKILLS</a></li>
-                  <li><a href="#">CONTÁCTAME</a></li>
+                  <li><a href="#">CONTACT ME</a></li>
                 </ul>
               </nav>
             </div>
@@ -58,11 +58,11 @@ export const Header = () => {
             <div className={menu_class}>
               <nav className='burger-menu-header'>
                 <ul className='burger-menu-ul-header'>
-                  <li><a href="#">INICIO</a></li>
-                  <li><a href="#">SOBRE MÍ</a></li>
-                  <li><a href="#">PROYECTOS</a></li>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT ME</a></li>
+                  <li><a href="#">PROJECTS</a></li>
                   <li><a href="#">SKILLS</a></li>
-                  <li><a href="#">CONTÁCTAME</a></li>
+                  <li><a href="#">CONTACT ME</a></li>
                 </ul>
               </nav>
             </div>
