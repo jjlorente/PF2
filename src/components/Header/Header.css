@@ -2,15 +2,17 @@ header {
     display: flex;
     justify-content: row;
     justify-content: center;
-    font-size: 0.95rem;
+    font-size: 0.97rem;
     height: 75px;
     min-width: 100%;
-    position: fixed;
+    position: sticky;
+    top:0;
     z-index: 1;
+    background-color: #222430;
 }
 
 header {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px #1CCA73;
 }
 
 .header-container {
@@ -22,6 +24,11 @@ header {
     max-width: 1224px;
 }
 
+.nav-header {
+    align-items: center;
+    display: flex;
+}
+
 .ul-header {
     display: flex;
     align-items: center;
@@ -29,5 +36,132 @@ header {
 }
 
 .flag-icon {
-    width: 2.2rem;
+    width: 1.5rem;
+}
+
+.flag-icon-gb, .flag-icon-es {
+    font-size: 1.5em;
+}
+
+li {
+    transition: all .2s ease-in-out;
+}
+
+li:hover{
+    transform: scale(1.1);
+    color: #1CCA73;
+}
+
+/* ---------------- Navbar and burger menu ------------------ */
+.burger {
+    display: none !important;
+    height: 2.8em;
+    justify-content: flex-start;
+}
+
+.burger-menu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: 0.75rem !important;
+}
+
+.burger-bar {
+    width: 3em;
+    height: 0.5em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.5em;
+}
+
+.burger-menu:hover .burger-bar {
+    background-color: #1CCA73;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 160px;
+    top: 77px;
+    left: 0px;
+    box-shadow: 0 1px 3px #1CCA73;
+    transition: opacity 0.1s ease-in-out;
+    z-index: 1;
+    background-color: #222430f3;
+}
+
+.burger-menu-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.burger-menu-ul-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.burger-bar.clicked:nth-child(1){
+    transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+    transform: scale(0.1);
+    transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(3){
+    transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+.nav-container {
+    display:"flex";
+    justify-content:"space-between";
+    gap:"1rem";
+}
+
+@media screen and (max-width: 770px) {
+    /* Estilos CSS aquí */
+    .burger {
+        display: flex !important;
+    }
+    .menu {
+        display: flex !important;
+    }
+    .nav-container {
+        display: none !important;
+    }
+}
+
+.visibleImg{
+    opacity: 1;
+}
+.hiddenImg{
+    opacity: 0;
 }

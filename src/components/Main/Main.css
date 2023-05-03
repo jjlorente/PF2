@@ -1,0 +1,40 @@
+.Main {
+    background-color: rgb(12, 26, 26);
+    max-width: 1224px;
+    display: flex;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+@keyframes waving-hand {
+    0% {
+        transform: rotate(0);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.hand {
+    animation: waving-hand 2.5s ease infinite !important;
+    transform-origin: 70% 70%;
+}
+
