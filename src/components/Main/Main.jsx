@@ -17,8 +17,8 @@ export const Main = () => {
             </div>
             <img src="../../../src/assets/fotoperfil.jpg" alt="" />
     </div>
-    <svg viewBox="0 0 1440 320" preserveAspectRatio="none" class="absolute -top-20 sm:-top-40 lg:-top-60 left-0 w-screen h-42 md:h-60 lg:h-80">
-        <path id="path" fill="transparent" fill-opacity="1" d="M0,96L120,96C240,96,480,96,720,128C960,160,1200,224,1320,256L1440,288" stroke="#393B4E" stroke-width="2" stroke-dasharray="10 5" stroke-dashoffset="0"></path>
+    <svg viewBox="0 0 1440 320" preserveAspectRatio="none" className="absolute -top-20 sm:-top-40 lg:-top-60 left-0 w-screen h-42 md:h-60 lg:h-80">
+        <path id="path" fill="transparent" fillOpacity="1" d="M0,96L120,96C240,96,480,96,720,128C960,160,1200,224,1320,256L1440,288" stroke="#393B4E" strokeWidth="2" strokeDasharray="10 5" strokeDashoffset="0"></path>
     </svg>
     </>
   )

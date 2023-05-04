@@ -1,3 +1,80 @@
 .About {
-    background-color: aqua;
+    max-width: 1124px;
+    display: flex;
+    margin: auto;
+    padding: 0 1rem;
+    margin-top: -8%;
+    font-family: 'Syne', sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+    height: auto;
+    gap: 1rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title-about {
+    font-size: 2.5rem;
+}
+
+.About p {
+    font-size: 1.3rem;
+    line-height: 30px;
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.about-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutme-link {
+    color: #1CCA73;
+    transition: all ease 0.2s;
+}
+
+#aboutme-link:hover {
+    color: #00ff2a;
+}
+
+.About img{
+    width: auto;
+    height: 375px;
+    max-height: 375px;
+}
+
+@media screen and (max-width: 930px) {
+    .About img {
+        height: 300px;
+    }
+    .title-about {
+        font-size: 2.2rem;
+    }
+    .About p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .About img {
+        display: none;
+    }
+    .about-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 453px) {
+    .about-container {
+        width: 100%;
+    }
+    .title-about {
+        font-size: 1.6rem;
+    }
+    .About p{
+        font-size: 0.9rem;
+    }
 }
