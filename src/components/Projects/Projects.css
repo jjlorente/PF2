@@ -11,6 +11,14 @@
      flex-direction: column;
 }
 
+.Projects h2 {
+     font-size: 2rem;
+}
+
+.title-project {
+     color: #1CCA73;
+}
+
 .gr-curs{
      color: #1CCA73;
 }
@@ -18,7 +26,6 @@
 .Projects img {
      transition: transform 0.3s ease-out;
      max-width:  26rem;
-     max-height: 14rem;
      width: 100%;
      height: auto;
      border-radius: .375rem;
@@ -78,6 +85,7 @@
 .info-project p{
      line-height: 1.5rem !important;
      color: rgba(255, 255, 255, 0.70);
+     font-size: 1.1rem;
 }
 
 .info-project h1{
@@ -119,7 +127,7 @@
      align-items: center;
      padding: 5px 10px;
      gap: .3rem;
-     font-size: .7rem;
+     font-size: .8rem;
      --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
@@ -145,10 +153,12 @@
      display: flex;
      flex-direction: row;
      gap: 1rem;
+     flex-wrap: wrap;
 }
 
 .links a{
      font-size: 1.1rem;
+     padding: 5px 10px;
 }
 
 .links i{
@@ -164,4 +174,60 @@
 
 article {
      margin-bottom: 4rem;
+}
+
+.svg-project{
+     margin-top: -6rem;
+}
+
+@media screen and (max-width: 1045px) {
+     .Projects a {
+          font-size: 1rem;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+     .Projects img {
+          max-width: 22rem;
+          justify-content: center;
+          align-items: center;
+     }
+}
+
+@media screen and (max-width: 940px) {
+     .project-cont {
+          flex-direction: column-reverse;
+     }
+
+     .Projects h2 {
+          font-size: 1.5rem;
+     }
+
+     .Projects img {
+          max-width: 30.2rem;
+     }
+}
+
+@media screen and (max-width: 750px) {
+     .Projects h2 {
+          font-size: 1.2rem;
+     }
+
+     .Projects p {
+          width: 100%;
+          font-size: 1rem;
+     }
+     .tecs {
+          width: 100%;
+     }
+}
+
+
+ @media screen and (max-width: 450px) {
+     .info-project h1 {
+          font-size: 1.6rem;
+     }
+     .tecs-cont span {
+          font-size: .6rem;
+     }
 }
