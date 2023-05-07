@@ -23,7 +23,7 @@
      color: #1CCA73;
 }
 
-.Projects img {
+/* .Projects img {
      transition: transform 0.3s ease-out;
      max-width:  26rem;
      width: 100%;
@@ -32,10 +32,11 @@
      --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0 0 0 / .1);
      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
-}
+} */
 
-.Projects img:hover {
-     transform: scale(1.01);
+.Projects .img:hover {
+     transform: scale(1.05);
+     cursor: pointer;
 }
 
 .project{
@@ -59,7 +60,7 @@
      border-radius: 10px;
      align-items: center;
      transition: all 0.2s ease-in-out;
-     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 40%), 0 2px 4px -2px rgb(0 0 0 / .1);
      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
      padding: 5px 10px;
@@ -128,7 +129,7 @@
      padding: 5px 10px;
      gap: .3rem;
      font-size: .8rem;
-     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 20%), 0 2px 4px -2px rgb(0 0 0 / .1);
      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
 }
@@ -139,7 +140,7 @@
 
 .tecs-cont a {
      padding: 5px 15px;
-     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / .1), 0 2px 4px -2px rgb(0 0 0 / .1);
+     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 40%), 0 2px 4px -2px rgb(0 0 0 / .1);
      --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
      box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
 }
@@ -194,7 +195,7 @@ article {
      }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 965px) {
      .project-cont {
           flex-direction: column-reverse;
      }

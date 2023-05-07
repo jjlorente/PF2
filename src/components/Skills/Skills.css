@@ -1,3 +1,81 @@
 .Skills {
-    background-color: bisque;
+    padding: 0 1rem;
+    display: flex;
+    max-width: 1124px;
+    margin: auto;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.Skills h1 {
+    font-size: 2.5rem;
+}
+
+.container-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.skill {
+    max-width: 150px;
+    width: 150px;
+    max-height: 150px;
+    border: solid #ffffff10 .5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 40%), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    justify-content: space-between;
+    gap: .5rem;
+    transition: ease all 0.5s;
+    background-color: #adadad04;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    filter: brightness(110%);
+    background-color: #adadad09;
+    border: solid #ffffff10 1px;
+}
+
+.skill img{
+    transition: ease all 1s;
+}
+
+.Skills h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.img-logo {
+    width: 100px;
+    height: auto;
+}
+
+.angular {
+    width: 95px;
+}
+.react {
+    width:100px;
+}
+.node{
+    filter: brightness(150%);
+}
+.exp {
+    width: 102px;
+}
+.boot{
+    width: 115px;
+    margin-top: 5px;
+}
+
+.svgSkills {
+    transform: rotate(180deg);
 }
