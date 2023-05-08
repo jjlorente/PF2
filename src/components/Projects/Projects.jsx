@@ -10,7 +10,7 @@ export const Projects = () => {
       "description": "A mobile application, which was a finalist in contests and inspired by the booking business concept, designed to facilitate the search for a tattoo shop or freelance tattoo artist for someone looking for the ideal place to get a tattoo.",
       "link-web": "https://wiket.esteveterradas.cat/index.php/Tattook",
       "img":   [
-        { title: "Tattook 1", caption: "Caption 1", url: "../../../public/assets/Tattook1.png" }
+        { title: "Tattook 1", caption: "Caption 1", url: "../../assets/Tattook1.png" }
       ],
       "link-front": "#",
       "link-back": "#",
@@ -21,7 +21,7 @@ export const Projects = () => {
       "description": "AA mobile application, which was a finalist in contests and inspired by the booking business concept, designed to facilitate the search for a tattoo shop or freelance tattoo artist for someone looking for the ideal place to get a tattoo.",
       "link-web": "https://wiket.esteveterradas.cat/index.php/Tattook",
       "img": [
-        { title: "GPT 1", caption: "Caption 1", url: "../../../public/assets/poetai.png" }
+        { title: "GPT 1", caption: "Caption 1", url: "../../assets/poetai.png" }
       ],
       "link-front": "#",
       "link-back": "#",
