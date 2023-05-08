@@ -147,6 +147,9 @@ h1{
     .fa-download{
         font-size: 10px;
     }
+    .Main {
+        margin-top: 100px;
+    }
 }
 
 @media screen and (max-width: 453px) {

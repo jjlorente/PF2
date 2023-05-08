@@ -31,8 +31,8 @@ export const Projects = () => {
 
   return (
     <>
-      <div className='Projects'>
-        <h1 className='title-about'><i className="fas fa-rocket"></i> Projects</h1>
+      <div className='Projects' id="projects">
+        <h1 className='title-about'><i className="fas fa-rocket" style={{color:"#20CA73"}}></i> Projects</h1>
         <h2>These are some of those <em className='gr-curs' style={{fontStyle:"italic"}}>things</em> I've built</h2>
 
         { Object.keys(projects).map((project) => {

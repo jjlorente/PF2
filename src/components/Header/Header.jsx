@@ -2,13 +2,15 @@ import React from 'react'
 import './Header.css'
 import "@fortawesome/fontawesome-svg-core"
 import { useEffect, useState } from 'react'
+import { Link, animateScroll } from 'react-scroll'
+import { Events } from 'react-scroll';
 
 export const Header = () => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
   const [menu_class, setMenuClass] = useState("menu hidden")
   const [isMenuClicked, setIsMenuClicked] = useState(false)
   const [imgIndex, setImgIndex] = useState(1)
-
+  
   const updateMenu = () => {
     if(!isMenuClicked) {
         setBurgerClass("burger-bar clicked")
@@ -38,11 +40,31 @@ export const Header = () => {
             <div className='nav-container'>
               <nav className='nav-header'>
                 <ul className='ul-header'>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">ABOUT ME</a></li>
-                  <li><a href="#">PROJECTS</a></li>
-                  <li><a href="#">SKILLS</a></li>
-                  <li><a href="#">CONTACT ME</a></li>
+                  <li>
+                    <Link to="main" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                        HOME
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="about" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      ABOUT ME
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="projects" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      PROJECTS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="skills" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      SKILLS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      CONTACT ME
+                    </Link>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -58,11 +80,31 @@ export const Header = () => {
             <div className={menu_class}>
               <nav className='burger-menu-header'>
                 <ul className='burger-menu-ul-header'>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">ABOUT ME</a></li>
-                  <li><a href="#">PROJECTS</a></li>
-                  <li><a href="#">SKILLS</a></li>
-                  <li><a href="#">CONTACT ME</a></li>
+                  <li>
+                    <Link to="main" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                        HOME
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="about" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      ABOUT ME
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="projects" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      PROJECTS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="skills" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      SKILLS
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                      CONTACT ME
+                    </Link>
+                  </li>
                 </ul>
               </nav>
             </div>

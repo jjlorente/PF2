@@ -4,8 +4,8 @@ import './Skills.css'
 export const Skills = () => {
   return (
     <>
-      <div className='Skills'>
-        <h1 className='title-container'><i className="fas fa-laptop-code"></i> Skills</h1>
+      <div className='Skills' id="skills">
+        <h1 className='title-about'><i className="fas fa-laptop-code" style={{color:"#20CA73"}}></i> Skills</h1>
         <div className='container-skills'>
           <div className="skill">
             <img className="img-logo angular" src={`../../../src/assets/angular.png`} alt='angular logo'></img>
@@ -28,7 +28,7 @@ export const Skills = () => {
             <h3>TypeScript</h3>
           </div>
           <div className="skill">
-            <i className="fab fa-2x fa-js" style={{fontSize: "100px", color: "#F7DF1E"}}></i>          
+            <img className="img-logo" src={`../../../src/assets/js-logo.png`} alt='js logo'></img>
             <h3>JavaScript</h3>
           </div>
           <div className="skill">

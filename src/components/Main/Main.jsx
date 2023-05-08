@@ -4,7 +4,7 @@ import './Main.css'
 export const Main = () => {
   return (
     <>
-    <div className='Main'>
+    <div className='Main' id='main'>
             <div className='title-container'>
                 <h1 style={{display:"flex", flexDirection:"row"}}>Hi, <span id='hand' >👋</span>I'm Joel,</h1>
                 <h1 style={{color:"#1CCA73"}}>Web Developer.</h1>

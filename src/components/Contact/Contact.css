@@ -1,3 +1,99 @@
 .Contact {
-    background-color: blueviolet;
+    padding: 0 1rem;
+    display: flex;
+    max-width: 1124px;
+    margin: auto;
+    flex-direction: column;
+    gap: 3rem;
+    color: rgba(255, 255, 255, 0.89);
+    margin-bottom: 10rem;
+}
+
+.Contact p {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.Contact h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 2rem;
+}
+
+.link-container {
+    display:flex; 
+    gap:.4rem; 
+    width: fit-content; 
+    padding:10px; 
+    border-radius:5px;
+    color: white;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 30%), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.gmail {
+    background:#0991B2; 
+}
+
+.movil {
+    background: #16A34A;
+}
+
+.linkedin {
+    background: #0284C7; 
+    display:flex; 
+    gap:.4rem; 
+    width: fit-content; 
+    padding:10px; 
+    border-radius:5px;
+    color: white;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 30%), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    transition: ease all 0.2s;
+}
+
+.github {
+    display:flex; 
+    gap:.4rem; 
+    width: fit-content; 
+    padding:10px; 
+    border-radius:5px;
+    color: white;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 30%), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    background: #3F3F46;
+    transition: ease all 0.2s;
+}
+
+.github:hover {
+    background: #52525a;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.linkedin:hover {
+    background: #0baeff; 
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width:930px) {
+    .title-types {
+        font-size: 1.6rem !important;
+    }
+    .p-types {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container-links {
+        font-size: 0.8rem !important;
+    }
+    .container-links i{
+        font-size: 16px !important;
+    }
 }

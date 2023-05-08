@@ -5,10 +5,14 @@
     margin: auto;
     flex-direction: column;
     gap: 3rem;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Syne', sans-serif;
 }
 
-.Skills h1 {
-    font-size: 2.5rem;
+.Skills .title-skills {
+    font-size: 3.5rem;
+    display: flex;
+    gap: .7rem !important;
 }
 
 .container-skills {
@@ -62,15 +66,19 @@
 .angular {
     width: 95px;
 }
+
 .react {
     width:100px;
 }
+
 .node{
     filter: brightness(150%);
 }
+
 .exp {
     width: 102px;
 }
+
 .boot{
     width: 115px;
     margin-top: 5px;
@@ -78,4 +86,131 @@
 
 .svgSkills {
     transform: rotate(180deg);
+}
+
+.js-logo{
+    width: 100px !important;
+    color: "#F7DF1E" !important;
+}
+
+
+@media screen and (max-width: 935px) {
+    .skill {
+        max-width: 100px;
+        width: 100px;
+        max-height: 100px;
+    }
+
+    .title-skills {
+        font-size: 2.2rem !important;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .img-logo {
+        width: 76px;
+    }
+    
+    .angular {
+        width: 70px;
+    }
+    .react {
+        width:75px;
+    }
+    .exp {
+        width: 77px;
+    }
+    .boot{
+        width: 90px;
+        margin-top: 5px;
+    }
+    .fa-js{
+        width: 75px !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .skill {
+        max-width: 85px;
+        width: 85px;
+        max-height: 85px;
+    }
+    
+    h3 {
+        font-size: 0.9rem;
+    }
+
+    .img-logo {
+        width: 60px;
+    }
+    
+    .angular {
+        width: 55px;
+    }
+
+    .react {
+        width:60px;
+    }
+
+    .exp {
+        width: 61px;
+    }
+
+    .boot{
+        width: 75px;
+        margin-top: 5px;
+    }
+
+    .fa-js{
+        width: 75px !important;
+    }
+
+    .node {
+        height: 60px;
+    }
+
+    .Skills {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container-skills {
+        justify-content: space-around;
+    }
+    
+    h3{
+        font-size: 0.9rem;
+    }
+
+    .img-logo {
+        width: 60px;
+    }
+    
+    .angular {
+        width: 55px;
+    }
+
+    .react {
+        width:60px;
+    }
+
+    .exp {
+        width: 61px;
+    }
+
+    .boot{
+        width: 75px;
+        margin-top: 5px;
+    }
+
+    .fa-js{
+        width: 75px !important;
+    }
+
+    .node {
+        height: 60px;
+    }
 }

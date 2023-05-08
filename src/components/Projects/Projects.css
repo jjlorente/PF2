@@ -93,6 +93,11 @@
      font-size: 2rem;
 }
 
+.title-about{
+     display: flex;
+     gap: .7rem !important;
+}
+
 .tecs-cont {
      display: flex;
      flex-direction: column;
@@ -225,9 +230,6 @@ article {
 
 
  @media screen and (max-width: 450px) {
-     .info-project h1 {
-          font-size: 1.6rem;
-     }
      .tecs-cont span {
           font-size: .6rem;
      }
