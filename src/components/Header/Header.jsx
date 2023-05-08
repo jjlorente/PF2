@@ -36,7 +36,7 @@ export const Header = () => {
     <>
         <header>
           <div className='header-container'>
-            <img className="logo" src={`../../../src/assets/logo-joel.png`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} alt="Image of the logo for the website" width={200}/>
+            <img className="logo" src={`../../../public/assets/logo-joel.png`} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} alt="Image of the logo for the website" width={200}/>
             <div className='nav-container'>
               <nav className='nav-header'>
                 <ul className='ul-header'>

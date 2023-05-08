@@ -19,7 +19,9 @@
     font-family: 'Syne', sans-serif;
     font-size: 2rem;
 }
-
+.Contact h1 {
+    font-family: 'Syne', sans-serif;
+}
 .link-container {
     display:flex; 
     gap:.4rem; 
