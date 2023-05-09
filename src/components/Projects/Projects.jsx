@@ -73,7 +73,7 @@ export const Projects = () => {
         )})}
       </div>
       
-      <svg viewBox="0 0 1440 320" preserveAspectRatio="none" className="svg-project absolute -top-20 sm:-top-52 lg:-top-72 left-0 w-screen h-42 md:h-60 lg:h-80">
+      <svg viewBox="0 0 1440 320" preserveAspectRatio="none" className="svg-sep svg-project absolute -top-20 sm:-top-52 lg:-top-72 left-0 w-screen h-42 md:h-60 lg:h-80">
         <path d="M0,160 C480,400 960,-100 1440,160" fill="transparent" stroke="#393B4E" strokeWidth="2" strokeDasharray="10 5" strokdashoffset="0"></path>
       </svg>
     </>

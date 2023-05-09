@@ -57,7 +57,7 @@
         height: 300px;
     }
     .title-about {
-        font-size: 2.2rem;
+        font-size: 2.7rem;
     }
     .About p{
         font-size: 1rem;
@@ -77,9 +77,15 @@
     .about-container {
         width: 100%;
     }
+
     .title-about {
         font-size: 2rem;
     }
+
+    .info-project h1 {
+        font-size: 1.8rem !important;
+    }
+
     .About p{
         font-size: 0.9rem;
     }

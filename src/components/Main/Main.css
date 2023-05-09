@@ -103,12 +103,18 @@ h1{
     margin-right: 7px;
 }
 @media screen and (max-width: 935px) {
+    .Main {
+        margin-top: 100px !important;
+    }
+
     .Main img {
         height: 350px;
     }
+
     .title-container {
         font-size: 1.7rem;
     }
+
     .Main p{
         font-size: 1rem;
     }
@@ -119,9 +125,14 @@ h1{
 }
 
 @media screen and (max-width: 750px) {
+    .Main {
+        margin-top: 80px !important;
+    }
+
     .Main img {
         height: 300px;
     }
+
     .title-container {
         font-size: 1.5rem;
     }
@@ -129,12 +140,20 @@ h1{
     #hand {
         font-size:2.2rem;
     }
-}
 
-@media screen and (max-width: 660px) {
-    .Main img {
-        display: none;
+    .Main p{
+        font-size: 1rem;
+        text-align: center;
     }
+
+    .title-container {
+        font-size: 1.3rem;
+    }
+
+    .title-about {
+        font-size: 2.2rem;
+    }
+
     .cv {
         padding: 5px 15px;
         font-size: 0.9rem;
@@ -144,17 +163,93 @@ h1{
         padding: 5px 10px;
         font-size: 2rem;
     }
+
     .fa-download{
         font-size: 10px;
     }
+}
+
+@media screen and (max-width: 660px) {
+    .Main img {
+        height: 280px;
+    }
+
+    .Main {
+        margin-top: 75px !important;
+    }
+
+    .Main p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .title-container {
+        font-size: 1.1rem;
+    }
+
+    .title-about {
+        font-size: 2rem;
+    }
+
+    .cv {
+        padding: 5px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .fab {
+        padding: 5px 10px;
+        font-size: 2rem;
+    }
+
+    .fa-download{
+        font-size: 10px;
+    }
+
     .Main {
         margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .Main {
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px !important;
+    }
+
+    .svg-sep {
+        padding: 2.5rem 0;
+    }
+
+    .Main img {
+        height: 250px !important;
+    }
+
+    #hand {
+        font-size:1.8rem;
+    }
+
+    .title-name {
+        justify-content: center;
+    }
+
+    .title-dev {
+        text-align: center;
+    }
+
+    .a-links {
+        justify-content: center;
     }
 }
 
 @media screen and (max-width: 453px) {
     .title-container {
         font-size: 1rem;
+    }
+
+    .Main p{
+        font-size: 0.69rem;
     }
 
     #hand {
