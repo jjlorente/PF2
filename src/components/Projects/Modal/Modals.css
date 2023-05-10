@@ -1,8 +1,67 @@
 .img {
-    transition: transform 0.3s ease-out;
-    max-width: 26rem !important;
+    transition: ease 0.3s ease-out;
+    max-width: 27rem !important;
     border-radius: .375rem;
     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 30%), 0 2px 4px -2px rgb(0 0 0 / .1);
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    height: auto !important;
+    max-height: 23rem;
+}
+
+.i-img{
+    color:rgba(255, 255, 255, 0.925); 
+    font-size: 2rem;
+    transition: ease all .5s;
+}
+
+.i-container{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 60px;
+    background-color:#393B4E;
+    justify-content: center;
+    align-items: center;
+    border-radius: .3rem;
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 30%), 0 2px 4px -2px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+    border: solid 2px #1cca7388;
+    transition: ease all 1s;
+}
+
+.container-modal:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.container-modal{
+    position: relative;
+    max-width: 27rem !important;
+    transition: ease all .5s;
+    display: flex;
+    width: 100%;
+}
+
+.container-modal:hover i{
+    color: #0cb15e;
+}
+
+.container-modal:hover .i-container{
+    top: 4px;
+    left: 4px;
+    background-color:#464861;
+    transform: scale(1.15);
+}
+
+@media screen and (max-width: 965px) {
+    .container-modal{
+        max-width: 27rem !important;
+    }
+    .img {
+        max-width: 100% !important;
+    }
 }

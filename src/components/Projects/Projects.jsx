@@ -10,22 +10,39 @@ export const Projects = () => {
       "description": "A mobile application, which was a finalist in contests and inspired by the booking business concept, designed to facilitate the search for a tattoo shop or freelance tattoo artist for someone looking for the ideal place to get a tattoo.",
       "link-web": "https://wiket.esteveterradas.cat/index.php/Tattook",
       "img":   [
-        { title: "Tattook 1", caption: "Caption 1", url: "/assets/Tattook1.png" }
+        { title: "Tattook 1", caption: "Caption 1", url: "/assets/Tattook1.png" },
+        { title: "Tattook 1", caption: "Caption 1", url: "/assets/tattook-1.jpeg" },
+        { title: "Tattook 1", caption: "Caption 1", url: "/assets/tattook-2.jpeg" },
+        { title: "Tattook 1", caption: "Caption 1", url: "/assets/tattook-3.jpeg" },
+        { title: "Tattook 1", caption: "Caption 1", url: "/assets/tattook-4.jpeg" }
       ],
-      "link-front": "#",
-      "link-back": "#",
+      "link-front": "https://github.com/jjlorente/tattook-front",
+      "link-back": "https://github.com/jjlorente/tattook-back",
       "tecs": ["Angular", "TypeScript", "JavaScript", "SASS", "Ionic","NodeJS","MongoDB","ExpressJS","Socket.io","GoogleCloud","Heroku"]
     },
     2:{
       "title": "ChatGPT Clone",
       "description": "AA mobile application, which was a finalist in contests and inspired by the booking business concept, designed to facilitate the search for a tattoo shop or freelance tattoo artist for someone looking for the ideal place to get a tattoo.",
-      "link-web": "https://wiket.esteveterradas.cat/index.php/Tattook",
+      "link-web": "",
       "img": [
-        { title: "GPT 1", caption: "Caption 1", url: "/assets/poetai.png" }
+        { title: "ChatGPT", caption: "Caption 1", url: "/assets/poetai.PNG" }
       ],
       "link-front": "#",
       "link-back": "#",
       "tecs": ["React", "JavaScript", "CSS", "NodeJS", "ExpressJS", "CohereAI" ]
+    },
+    3:{
+      "title": "Marvel Snap",
+      "description": "A mobile application, which was a finalist in contests and inspired by the booking business concept, designed to facilitate the search for a tattoo shop or freelance tattoo artist for someone looking for the ideal place to get a tattoo.",
+      "link-web": "",
+      "img": [
+        { title: "Marvel Snap", caption: "Caption 1", url: "/assets/marvel.png" },
+        { title: "Marvel Snap", caption: "Caption 2", url: "/assets/marvel2.png" },
+        { title: "Marvel Snap", caption: "Caption 3", url: "/assets/marvel3.png" }
+      ],
+      "link-front": "#",
+      "link-back": "#",
+      "tecs": ["Angular", "JavaScript", "TypeScript", "SASS", "NodeJS", "ExpressJS" ]
     }
   }
 
@@ -44,7 +61,7 @@ export const Projects = () => {
                 <h1 className='title-project'> {projects[project]["title"]} </h1>
                 <p> {projects[project]["description"]} </p>
                 <div className='links'>
-                  <a href={projects[project]["link-web"]} target="_blank">{projects[project]["title"] == "Tattook" ? "All about Tattook" : "Web" }
+                  <a href={projects[project]["link-web"]} target="_blank">{projects[project]["title"] == "Tattook" ? "All about App" : "Web" }
                     <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g>
                         <path d="M10.0002 5H8.2002C7.08009 5 6.51962 5 6.0918 5.21799C5.71547 5.40973 5.40973 5.71547 5.21799 6.0918C5 6.51962 5 7.08009 5 8.2002V15.8002C5 16.9203 5 17.4801 5.21799 17.9079C5.40973 18.2842 5.71547 18.5905 6.0918 18.7822C6.5192 19 7.07899 19 8.19691 19H15.8031C16.921 19 17.48 19 17.9074 18.7822C18.2837 18.5905 18.5905 18.2839 18.7822 17.9076C19 17.4802 19 16.921 19 15.8031V14M20 9V4M20 4H15M20 4L13 11" stroke="#1CCA73" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>

@@ -8,9 +8,35 @@ header {
     position: sticky;
     top:0;
     z-index: 1;
-    background-color: #222430;
+    background-color: #222430f1;
 }
 
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.active {
+    color: #1CCA73;
+}
+
+.menu::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+  
 header {
     box-shadow: 0 1px 3px #1CCA73;
 }

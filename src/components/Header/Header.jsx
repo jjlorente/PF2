@@ -41,27 +41,27 @@ export const Header = () => {
               <nav className='nav-header'>
                 <ul className='ul-header'>
                   <li>
-                    <Link to="main" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="main" activeClass="active" spy={true} smooth={true} duration={500} offset={-400} style={{cursor:"pointer"}}>
                         HOME
                     </Link>
                   </li>
                   <li>
-                    <Link to="about" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="about" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} style={{cursor:"pointer"}}>
                       ABOUT ME
                     </Link>
                   </li>
                   <li>
-                    <Link to="projects" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="projects" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} style={{cursor:"pointer"}}>
                       PROJECTS
                     </Link>
                   </li>
                   <li>
-                    <Link to="skills" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="skills" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} style={{cursor:"pointer"}}>
                       SKILLS
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500} offset={-350} style={{cursor:"pointer"}}>
                       CONTACT ME
                     </Link>
                   </li>
@@ -81,27 +81,27 @@ export const Header = () => {
               <nav className='burger-menu-header'>
                 <ul className='burger-menu-ul-header'>
                   <li>
-                    <Link to="main" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="main" activeClass="active" spy={true} smooth={true} duration={500} offset={-400} style={{cursor:"pointer"}}>
                         HOME
                     </Link>
                   </li>
                   <li>
-                    <Link to="about" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="about" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} style={{cursor:"pointer"}}>
                       ABOUT ME
                     </Link>
                   </li>
                   <li>
-                    <Link to="projects" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="projects" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} style={{cursor:"pointer"}}>
                       PROJECTS
                     </Link>
                   </li>
                   <li>
-                    <Link to="skills" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="skills" activeClass="active" spy={true} smooth={true} duration={500} offset={-200} style={{cursor:"pointer"}}>
                       SKILLS
                     </Link>
                   </li>
                   <li>
-                    <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer"}}>
+                    <Link to="contact" activeClass="active" spy={true} smooth={true} duration={500} offset={-350} style={{cursor:"pointer"}}>
                       CONTACT ME
                     </Link>
                   </li>

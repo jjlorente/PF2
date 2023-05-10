@@ -1,9 +1,16 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './Modals.css'
-import { Lightbox } from "react-modal-image";
+import Lightbox from "yet-another-react-lightbox"
+import "yet-another-react-lightbox/styles.css"
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen"
+import Captions from "yet-another-react-lightbox/plugins/captions"
+import Zoom from "yet-another-react-lightbox/plugins/zoom"
+
 export const Modals = (props) => {
   const [showModal, setShowModal] = useState(false);
+  const [open, setOpen] = useState(false);
+  const zoomRef = useRef(null)
 
   const handleOpenModal = () => {
     setShowModal(true);
@@ -17,17 +24,24 @@ export const Modals = (props) => {
 
   return (
     <>
-      <img className='img' onClick={handleOpenModal} src={props.imgs[0].url} alt="" />
-      {
-        showModal && (
-          <Lightbox
-            medium={props.imgs[0].url}
-            large={props.imgs[0].url}
-            alt={props.imgs[0].title}
-            onClose={handleCloseModal}
-          />
-        )
-      }
+      <div onClick={() => setOpen(true)} className='container-modal'>
+        <img className='img' src={props.imgs[0].url} alt="" />
+        <div className='i-container'>
+          <i className="fas fa-photo-video i-img"></i>
+        </div>
+      </div>
+      <Lightbox
+        open={open}
+        plugins={[Fullscreen, Captions, Zoom]}
+        close={() => setOpen(false)}
+        zoom={{ ref: zoomRef }}
+        slides={props.imgs.map((img) => ({ src: img.url }))}
+        on={{
+          click: () => zoomRef.current?.zoomIn()
+        }}
+      />
+        
+      
     </>
   );
 };
