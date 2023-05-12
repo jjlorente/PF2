@@ -166,11 +166,20 @@ h1{
     .fa-download{
         font-size: 10px;
     }
+
+    #hand {
+        margin-top: -3px !important;
+    }
 }
 
 @media screen and (max-width: 660px) {
     .Main img {
         height: 280px;
+    }
+
+    #hand {
+        margin-top: -6px !important;
+        font-size:2.1rem;
     }
 
     .Main {
@@ -222,6 +231,7 @@ h1{
 
     #hand {
         font-size:1.8rem;
+        margin-top: -2px !important;
     }
 
     .Main p{

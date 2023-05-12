@@ -5,10 +5,10 @@ export const Contact = () => {
   return (
     <div className='Contact' id="contact">
       <h1 className="title-about" style={{margin:0, padding:0}}><i style={{color: "rgb(32, 202, 115)"}} className="fas fa-comments"></i>Get in touch</h1>
-      <p className="p-types" style={{margin:0, padding:0, maxWidth:"54rem"}}>
+      <p className="p-types" style={{margin:0, padding:0, maxWidth:"50rem"}}>
           I'm open to discussing how I can apply my skills and knowledge to your team and/or projects.
       </p>
-      <p className="p-types" style={{margin:0, padding:0, maxWidth:"54rem"}}>
+      <p className="p-types" style={{margin:0, padding:0, maxWidth:"50rem"}}>
         Looking forward to start my professional career as developer.
         If you are interested in my work, or you have any questions, please feel free to contact me.
       </p>

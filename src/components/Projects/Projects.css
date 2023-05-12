@@ -160,11 +160,14 @@
 
 .links a{
      font-size: 1.1rem;
-     padding: 5px 10px;
+     padding: 5px 12px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
 }
 
 .links i{
-     font-size: 1rem;
+     font-size: 1.1rem;
      padding: 0;
      color: #1CCA73;
      transition: all ease .5s;
@@ -182,6 +185,30 @@ article {
      margin-top: -6rem;
 }
 
+.bttn-projects {
+     display: flex;
+     margin: auto;
+     width: fit-content;
+     align-items: center;
+     justify-content: center;
+     gap: .5rem !important;
+     padding: 5px 15px !important;
+     --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 40%), 0 2px 4px -2px rgb(0 0 0 / .1);
+     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.bttn-projects:hover {
+     color: #1CCA73;
+     cursor: pointer;
+     scale: 1.05;
+     background-color: #464861;
+
+}
+.i-projects{
+     font-size: 30px !important;
+     padding: 0 !important;
+}
 @media screen and (max-width: 1045px) {
      .Projects a {
           font-size: 1rem;

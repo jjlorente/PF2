@@ -9,6 +9,7 @@ header {
     top:0;
     z-index: 1;
     background-color: #222430f1;
+    font-family: 'Syne', sans-serif;
 }
 
 header::before {
@@ -172,8 +173,7 @@ li:hover{
     gap:"1rem";
 }
 
-@media screen and (max-width: 770px) {
-    /* Estilos CSS aquí */
+@media screen and (max-width: 810px) {
     .burger {
         display: flex !important;
     }
