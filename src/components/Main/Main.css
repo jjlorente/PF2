@@ -48,6 +48,7 @@ h1{
 #hand {
     display: flex;
     animation: Waving-hand 2.5s infinite !important;
+    padding: 0;
     font-size:3.3rem;
 }
 
@@ -138,7 +139,7 @@ h1{
     }
 
     #hand {
-        font-size:2.2rem;
+        font-size:2.1rem;
     }
 
     .Main p{
@@ -166,10 +167,6 @@ h1{
     .fa-download{
         font-size: 10px;
     }
-
-    #hand {
-        margin-top: -3px !important;
-    }
 }
 
 @media screen and (max-width: 660px) {
@@ -178,8 +175,7 @@ h1{
     }
 
     #hand {
-        margin-top: -6px !important;
-        font-size:2.1rem;
+        font-size:1.75rem;
     }
 
     .Main {
@@ -230,8 +226,7 @@ h1{
     }
 
     #hand {
-        font-size:1.8rem;
-        margin-top: -2px !important;
+        font-size:1.6rem;
     }
 
     .Main p{
@@ -241,6 +236,7 @@ h1{
 
     .title-name {
         justify-content: center;
+        align-items: center;
     }
 
     .title-dev {
