@@ -10,7 +10,7 @@ export const Projects = () => {
       "description": "A mobile application, which was a finalist in contests and inspired by the booking business concept, designed to facilitate the search for a tattoo shop or freelance tattoo artist for someone looking for the ideal place to get a tattoo.",
       "link-web": "https://wiket.esteveterradas.cat/index.php/Tattook",
       "img":   [
-        { title: "Tattook", caption: "Caption 1", url: "/assets/Tattook1.png" },
+        { title: "Tattook", caption: "Caption 1", url: "/assets/Tattook1.jpg" },
         { title: "Tattook", caption: "Caption 2", url: "/assets/tattook-1.jpeg" },
         { title: "Tattook", caption: "Caption 3", url: "/assets/tattook-2.jpeg" },
         { title: "Tattook", caption: "Caption 4", url: "/assets/tattook-3.jpeg" },
@@ -41,10 +41,10 @@ export const Projects = () => {
       "description": "Web application, this is a guessing game inspired by Wordle, where users have to guess a chain of related words. The second and fourth word in a chain of five words are related to each other. Every day, you will receive a new chain. I challenge you to try it out!",
       "link-web": "https://encadenadas.netlify.app/",
       "img": [
-        { title: "Encadenadas", caption: "Caption 1", url: "/assets/encadenadas-1.png" },
-        { title: "Encadenadas", caption: "Caption 2", url: "/assets/encadenadas-2.png" },
-        { title: "Encadenadas", caption: "Caption 3", url: "/assets/encadenadas-3.png" },
-        { title: "Encadenadas", caption: "Caption 4", url: "/assets/encadenadas-4.png" }
+        { title: "Encadenadas", caption: "Caption 1", url: "/assets/encadenadas-1.jpg" },
+        { title: "Encadenadas", caption: "Caption 2", url: "/assets/encadenadas-2.jpg" },
+        { title: "Encadenadas", caption: "Caption 3", url: "/assets/encadenadas-3.jpg" },
+        { title: "Encadenadas", caption: "Caption 4", url: "/assets/encadenadas-4.jpg" }
       ],
       "link-front": "https://github.com/jjlorente/encadenados-react",
       "link-back": "",
@@ -55,9 +55,9 @@ export const Projects = () => {
       "description": "The web application is related to the mobile game Marvel Snap, where users can access a variety of information about the game, including news, patches, decks, cards, and more. It involves creating an API from scratch with a MongoDB database.",
       "link-web": "",
       "img": [
-        { title: "Marvel Snap", caption: "Caption 1", url: "/assets/marvel.png" },
-        { title: "Marvel Snap", caption: "Caption 2", url: "/assets/marvel2.png" },
-        { title: "Marvel Snap", caption: "Caption 3", url: "/assets/marvel3.png" }
+        { title: "Marvel Snap", caption: "Caption 1", url: "/assets/marvel.jpg" },
+        { title: "Marvel Snap", caption: "Caption 2", url: "/assets/marvel2.jpg" },
+        { title: "Marvel Snap", caption: "Caption 3", url: "/assets/marvel3.jpg" }
       ],
       "link-front": "https://github.com/jjlorente/snap-front",
       "link-back": "https://github.com/jjlorente/snap-back",
@@ -81,9 +81,9 @@ export const Projects = () => {
       "description": "Web application, website where you can search for all the places to find your perfect vacation, prices, schedules and more... Back-end not implemented, currently only the front-end is implemented.",
       "link-web": "https://travel-scope.netlify.app/",
       "img": [
-        { title: "Travel", caption: "Caption 1", url: "/assets/travel-1.png" },
-        { title: "Travel", caption: "Caption 2", url: "/assets/travel-2.png" },
-        { title: "Travel", caption: "Caption 3", url: "/assets/travel-3.png" }
+        { title: "Travel", caption: "Caption 1", url: "/assets/travel-1.jpg" },
+        { title: "Travel", caption: "Caption 2", url: "/assets/travel-2.jpg" },
+        { title: "Travel", caption: "Caption 3", url: "/assets/travel-3.jpg" }
       ],
       "link-front": "https://github.com/jjlorente/travel-scope",
       "link-back": "",
