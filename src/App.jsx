@@ -12,7 +12,6 @@ function App() {
   const [len, setLen] = useState("en")
 
   const changeLen = (leng) => {
-    console.log(leng)
     setLen(leng)
   };
 

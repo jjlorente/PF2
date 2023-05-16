@@ -13,7 +13,7 @@ export const Main = ({len}) => {
                     </>
                     ) : (
                     <>
-                      Hi, <span id='hand' >👋</span> Soy Joel,
+                      Hola, <span id='hand' >👋</span> Soy Joel,
                     </>
                     )
                   }
