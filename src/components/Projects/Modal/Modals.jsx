@@ -20,8 +20,6 @@ export const Modals = (props) => {
     setShowModal(false);
   };
 
-  console.log(props.imgs[0].url);
-
   return (
     <>
       <div onClick={() => setOpen(true)} className='container-modal'>

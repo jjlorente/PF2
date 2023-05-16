@@ -1,16 +1,38 @@
 import React from 'react'
 import './Main.css'
 
-export const Main = () => {
+export const Main = ({len}) => {
   return (
     <>
     <div className='Main' id='main'>
             <div className='title-container'>
-                <h1 className='title-name' style={{display:"flex", flexDirection:"row"}}>Hi, <span id='hand' >👋</span>I'm Joel,</h1>
-                <h1 className='title-dev' style={{color:"#1CCA73"}}>Web Developer.</h1>
-                <p>Passionate full-stack developer based in Spain.</p>
+                <h1 className='title-name' style={{display:"flex", flexDirection:"row"}}>
+                  {len === "en" ? (
+                    <>
+                      Hi, <span id='hand' >👋</span> I'm Joel,
+                    </>
+                    ) : (
+                    <>
+                      Hi, <span id='hand' >👋</span> Soy Joel,
+                    </>
+                    )
+                  }
+                </h1>
+                <h1 className='title-dev' style={{color:"#1CCA73"}}>
+                  {len === "en" ? (
+                    <>
+                      Web Developer.
+                    </>
+                    ) : (
+                    <>
+                      Desarrollador Web.
+                    </>
+                    )
+                  }
+                </h1>
+                <p>{len === "en" ? "Passionate full-stack developer based in Spain." : "Apasionado desarrollador full-stack viviendo en España."}</p>
                 <div className='a-links' style={{display:"flex", flexDirection:"row", gap:"1rem"}}>
-                    <a className="cv">Download CV</a>
+                    <a className="cv">{len === "en" ? "Download CV" : "Descargar CV"}</a>
                     <a href="https://github.com/jjlorente" target="_blank"><i className="fab fa-github"></i></a>
                     <a href="https://github.com/jjlorente" target="_blank"><i className="fab fa-linkedin"></i></a>
                 </div>

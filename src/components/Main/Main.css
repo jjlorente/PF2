@@ -103,7 +103,7 @@ h1{
     font-size: 13px;
     margin-right: 7px;
 }
-@media screen and (max-width: 935px) {
+@media screen and (max-width: 1080px) {
     .Main {
         margin-top: 100px !important;
     }
@@ -125,7 +125,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     .Main {
         margin-top: 80px !important;
     }
@@ -169,7 +169,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 690px) {
     .Main img {
         height: 280px;
     }
@@ -209,7 +209,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 610px) {
     .Main {
         flex-direction: column-reverse !important;
         justify-content: center;

@@ -1,16 +1,15 @@
 import React from 'react'
 import './Contact.css'
 
-export const Contact = () => {
+export const Contact = ({len}) => {
   return (
     <div className='Contact' id="contact">
-      <h1 className="title-about" style={{margin:0, padding:0}}><i style={{color: "rgb(32, 202, 115)"}} className="fas fa-comments"></i>Get in touch</h1>
+      <h1 className="title-about" style={{margin:0, padding:0}}><i style={{color: "rgb(32, 202, 115)"}} className="fas fa-comments"></i>{len === "en" ? "Get in touch" : "Contáctame"}</h1>
       <p className="p-types" style={{margin:0, padding:0, maxWidth:"50rem"}}>
-          I'm open to discussing how I can apply my skills and knowledge to your team and/or projects.
+        {len === "en" ? "I'm open to discussing how I can apply my skills and knowledge to your team and/or projects." : "Estoy abierto a discutir cómo puedo aplicar mis habilidades y conocimientos a tu equipo y/o proyectos."}
       </p>
       <p className="p-types" style={{margin:0, padding:0, maxWidth:"50rem"}}>
-        Looking forward to start my professional career as developer.
-        If you are interested in my work, or you have any questions, please feel free to contact me.
+      {len === "en" ? "Looking forward to start my professional career as developer. If you are interested in my work, or you have any questions, please feel free to contact me." : "Emocionado por comenzar mi carrera profesional como desarrollador. Si estás interesado/a en mi trabajo o tienes alguna pregunta, no dudes en contactarme."}
       </p>
       <div className='container-links' style={{display:"flex", flexDirection:"row", gap:"1rem", flexWrap:"wrap"}}>
         <div className='link-container gmail'>

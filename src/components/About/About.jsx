@@ -2,23 +2,37 @@ import React from 'react'
 import './About.css'
 import { Link, animateScroll } from 'react-scroll'
 
-export const About = () => {
+export const About = ({len}) => {
   return (
     <>
       <div className='About' id="about">
         <div className='about-container'>
-          <h1 className='title-about'><i className="fas fa-user-circle" style={{color:"#20CA73"}}></i> About me</h1>
+          <h1 className='title-about'><i className="fas fa-user-circle" style={{color:"#20CA73"}}></i>{len === "en" ? "About me" : "Sobre mí"}</h1>
           <p>
-            I love creating innovative and creative solutions to problems, 
-            and I am excited to see how my projects can make a difference.
+            {len === "en" ? 
+              "I love creating innovative and creative solutions to problems, and I am excited to see how my projects can make a difference."
+              : 
+              "Me encanta crear soluciones innovadoras y creativas a problemas, y estoy emocionado por ver cómo mis proyectos pueden marcar la diferencia."
+            }
           </p>
           <p>
-            I am looking to leverage my both soft and technical skills and wish to bring significant value to companies.
+            {len === "en" ? 
+              "I am looking to leverage my both soft and technical skills and wish to bring significant value to companies."
+              : 
+              "Estoy buscando aprovechar tanto mis habilidades técnicas como mis habilidades blandas, y deseo aportar un valor significativo a las empresas."
+            }
           </p>
           <p>
-            Seeking an opportunity to demonstrate my skills and grow professionally, 
-            if you are interested in working with me, 
-            please do not hesitate to <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer", color:"#20CA73"}}><span id='contact-t'>contact me.</span></Link>
+            {len === "en" ? 
+              <>
+                Seeking an opportunity to demonstrate my skills and grow professionally, if you are interested in working with me, please do not hesitate to <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer", color:"#20CA73"}}><span id='contact-t'>contact me.</span></Link>
+              </>
+              : 
+              <>
+                Buscando una oportunidad para demostrar mis habilidades y crecer profesionalmente, si estás interesado/a en trabajar conmigo, no dudes en <Link to="contact" spy={true} smooth={true} duration={500} style={{cursor:"pointer", color:"#20CA73"}}><span id='contact-t'>contactarme.</span></Link>
+              </>
+            }
+
           </p>
         </div>
       </div>

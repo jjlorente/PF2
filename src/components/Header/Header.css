@@ -111,7 +111,7 @@ li:hover{
     display: none;
     width: 100%;
     position: absolute;
-    height: 160px;
+    height: 190px;
     top: 77px;
     left: 0px;
     box-shadow: 0 1px 3px #1CCA73;
@@ -173,7 +173,28 @@ li:hover{
     gap:"1rem";
 }
 
-@media screen and (max-width: 810px) {
+.flags{
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.flag-icon{
+    transition: ease all .2s;
+    border-radius: 6px;
+}
+
+.inactive-flag:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: none;
+}
+
+.inactive-flag{
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 910px) {
     .burger {
         display: flex !important;
     }
