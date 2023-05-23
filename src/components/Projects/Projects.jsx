@@ -106,6 +106,23 @@ export const Projects = ({len}) => {
       "link-front": "https://github.com/jjlorente/travel-scope",
       "link-back": "",
       "tecs": ["React", "JavaScript", "SCSS", "HTML"]
+    },
+    7: {
+      "title": "Admin table",
+      "description": {
+        "en": "Angular project that implements a user table where you can add, delete, and edit users. It utilizes JSON Server as the backend. The table also includes a filtering feature for each column and the ability to sort any column.",
+        "es": "Web que implementa una tabla de usuarios donde puedes agregar, eliminar y editar usuarios. Utiliza JSON Server como backend. También incluye una función de filtrado y la capacidad de ordenar cualquier columna."
+      },
+      "link-web": "",
+      "img": [
+        { "title": "User Table", "caption": "Caption 1", "url": "/assets/table-1.png" },
+        { "title": "User Table", "caption": "Caption 2", "url": "/assets/table-2.png" },
+        { "title": "User Table", "caption": "Caption 3", "url": "/assets/table-3.png" },
+        { "title": "User Table", "caption": "Caption 4", "url": "/assets/table-4.png" }
+      ],
+      "link-front": "https://github.com/jjlorente/PT-Angular",
+      "link-back": "",
+      "tecs": ["Angular", "Angular Material", "TypeScript", "HTML", "CSS", "JSON Server"]
     }
   }
 

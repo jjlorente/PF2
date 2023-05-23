@@ -4,12 +4,9 @@ import './Main.css'
 export const Main = ({len}) => {
 
   const downloadCV = () => {
-    // Lógica para descargar el archivo PDF
-    // Puedes usar librerías como FileSaver.js o implementar tu propia lógica de descarga.
-    // Aquí se muestra un ejemplo utilizando FileSaver.js:
     const FileSaver = require('file-saver');
-    const pdfURL = '/assets/ejemplo.pdf'; // Reemplaza esta URL con la ubicación de tu archivo PDF
-    FileSaver.saveAs(pdfURL, 'ejemplo.pdf');
+    const pdfURL = '/assets/cv.pdf';
+    FileSaver.saveAs(pdfURL, 'cv.pdf');
   };
 
   return (
