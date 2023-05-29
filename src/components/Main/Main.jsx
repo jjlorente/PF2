@@ -39,9 +39,9 @@ export const Main = ({len}) => {
                 </h1>
                 <p>{len === "en" ? "Passionate full-stack developer based in Spain." : "Apasionado desarrollador full-stack viviendo en España."}</p>
                 <div className='a-links' style={{display:"flex", flexDirection:"row", gap:"1rem"}}>
-                    <a className="cv" href='/assets/cv_joel_v2.pdf' download>{len === "en" ? "Download CV" : "Descargar CV"}</a>
+                    <a className="cv" href='/assets/cv_joel.pdf' download>{len === "en" ? "Download CV" : "Descargar CV"}</a>
                     <a href="https://github.com/jjlorente" target="_blank"><i className="fab fa-github"></i></a>
-                    <a href="https://github.com/jjlorente" target="_blank"><i className="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i className="fab fa-linkedin"></i></a>
                 </div>
             </div>
             <img src="/assets/fotoperfil.jpg" alt="profile image" />
