@@ -20,7 +20,7 @@ export const Contact = ({len}) => {
           <i className="fab fa-whatsapp" style={{marginTop:"1px",fontSize:"20px",margin:"0",padding:"0"}}></i>
           <span>(34) 676 15 96 39</span>
         </div>
-        <a href="#" className='linkedin' target="_blank"><i className="fab fa-linkedin" style={{fontSize:"20px",margin:"0",padding:"0"}} ></i>joeljimenezlorente</a>
+        <a href="https://www.linkedin.com/in/joeljimenezlorente/" className='linkedin' target="_blank"><i className="fab fa-linkedin" style={{fontSize:"20px",margin:"0",padding:"0"}} ></i>joeljimenezlorente</a>
         <a href="https://github.com/jjlorente" className='github' target="_blank"><i className="fab fa-github" style={{fontSize:"20px",margin:"0",padding:"0"}} ></i>jjlorente</a>
       </div>
     </div>
