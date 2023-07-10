@@ -1,6 +1,59 @@
 import React from 'react'
 import './Skills.css'
 
+const skillsJSON = [
+  {
+    name: "Angular",
+    className: "angular",
+    imgSrc: "angular.png"
+  },
+  {
+    name: "React",
+    className: "react",
+    imgSrc: "react.png"
+  },
+  {
+    name: "NodeJS",
+    className: "node",
+    imgSrc: "node.png"
+  },
+  {
+    name: "ExpressJS",
+    className: "exp",
+    imgSrc: "express.svg"
+  },
+  {
+    name: "TypeScript",
+    className: "",
+    imgSrc: "tsicon.png"
+  },
+  {
+    name: "JavaScript",
+    className: "",
+    imgSrc: "js-logo.png"
+  },
+  {
+    name: "Python",
+    className: "",
+    imgSrc: "python.webp"
+  },
+  {
+    name: "MongoDB",
+    className: "",
+    imgSrc: "mongodb.png"
+  },
+  {
+    name: "Bootstrap",
+    className: "boot",
+    imgSrc: "bootstrap.png"
+  },
+  {
+    name: "CSS",
+    className: "",
+    imgSrc: "css.png"
+  }
+]
+
 export const Skills = () => {
   return (
     <>
