@@ -43,6 +43,24 @@ export const Projects = ({len}) => {
       "tecs": ["React", "JavaScript", "CSS", "NodeJS", "ExpressJS", "CohereAI"]
     },
     3: {
+      "title": "LoLBoard",
+      "description": {
+        "en": "Web application inspired by League of Legends, where users must guess the positions of champions on a board based on clues provided in the rows and columns.",
+        "es": "Aplicación web inspirado en League of Legends, donde los usuarios deben adivinar la posición de los campeones en un tablero en función de pistas proporcionadas en las filas y columnas."
+      },
+      "link-web": "https://lolboard.netlify.app/",
+      "img": [
+        { "title": "LoLBoard", "caption": "Caption 1", "url": "/assets/lolboard.jpg" },
+        { "title": "LoLBoard", "caption": "Caption 2", "url": "/assets/lolboard2.jpg" },
+        { "title": "LoLBoard", "caption": "Caption 3", "url": "/assets/lolboard3.jpg" },
+        { "title": "LoLBoard", "caption": "Caption 4", "url": "/assets/lolboard4.jpg" },
+        { "title": "LoLBoard", "caption": "Caption 5", "url": "/assets/lolboard5.jpg" }
+      ],
+      "link-front": "https://github.com/jjlorente",
+      "link-back": "",
+      "tecs": ["React", "TypeScript", "CSS", "HTML"]
+    },
+    4: {
       "title": "Encadenadas",
       "description": {
       "en": "Web application, this is a guessing game inspired by Wordle, where users have to guess a chain of related words. The second and fourth word in a chain of five words are related to each other. Every day, you will receive a new chain. I challenge you to try it out!",
@@ -59,7 +77,7 @@ export const Projects = ({len}) => {
       "link-back": "",
       "tecs": ["React", "JavaScript", "TypeScript", "CSS", "HTML", "Swal"]
     },
-    4: {
+    5: {
       "title": "Marvel Snap",
       "description": {
       "en": "The web application is related to the mobile game Marvel Snap, where users can access a variety of information about the game, including news, patches, decks, cards, and more. It involves creating an API from scratch with a MongoDB database.",
@@ -75,7 +93,7 @@ export const Projects = ({len}) => {
       "link-back": "https://github.com/jjlorente/snap-back",
       "tecs": ["Angular", "JavaScript", "TypeScript", "SASS", "NodeJS", "ExpressJS"]
     },    
-    5: {
+    6: {
       "title": "PoetAI",
       "description": {
       "en": "Web application, where you can create a poem for any situation and dedicate it to anyone you want. It offers a wide range of poem types to choose from. Select the type of poem and the name of the person you want to dedicate it to, and the AI will generate it for you.",
@@ -91,7 +109,7 @@ export const Projects = ({len}) => {
       "link-back": "https://github.com/jjlorente/PoetAI/tree/main/server",
       "tecs": ["React", "JavaScript", "CSS", "NodeJS", "ExpressJS", "CohereAI"]
     },
-    6: {
+    7: {
       "title": "Travel",
       "description": {
       "en": "Web application, website where you can search for all the places to find your perfect vacation, prices, schedules and more... Back-end not implemented, currently only the front-end is implemented.",
@@ -107,7 +125,7 @@ export const Projects = ({len}) => {
       "link-back": "",
       "tecs": ["React", "JavaScript", "SCSS", "HTML"]
     },
-    7: {
+    8: {
       "title": "Admin table",
       "description": {
         "en": "Angular project that implements a user table where you can add, delete, and edit users. It utilizes JSON Server as the backend. The table also includes a filtering feature for each column and the ability to sort any column.",
