@@ -12,7 +12,7 @@
 .i-img{
     color:rgba(255, 255, 255, 0.925); 
     font-size: 2rem;
-    transition: ease all .5s;
+    transition: ease all .3s;
 }
 
 .i-container{
@@ -30,7 +30,7 @@
     --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
     border: solid 2px #1cca7388;
-    transition: ease all 1s;
+    transition: ease all .3s;
 }
 
 .container-modal:hover{
@@ -41,7 +41,7 @@
 .container-modal{
     position: relative;
     max-width: 27rem !important;
-    transition: ease all .5s;
+    transition: ease all .3s;
     display: flex;
     width: 100%;
 }

@@ -170,7 +170,7 @@
      font-size: 1.1rem;
      padding: 0;
      color: #1CCA73;
-     transition: all ease .5s;
+     transition: all ease .3s;
 }
 
 .links a:hover i{
