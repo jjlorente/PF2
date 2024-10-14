@@ -48,7 +48,7 @@ export const Projects = ({len}) => {
         "en": "Web application focused on daily anime-themed games, where users earn 'gachas' as rewards to pull cards and complete collections. Players unlock new difficulty levels based on their card power. The platform features a ranking system and a marketplace for buying, selling, and trading cards. Games reset daily, offering new challenges and rewards.",
         "es": "Aplicación web centrada en juegos diarios, donde los usuarios ganan 'gachas' como recompensa para obtener cartas y completar colecciones. Los jugadores desbloquean dificultades según el poder de sus cartas. La plataforma incluye un sistema de clasificación y un mercado para comprar y vender cartas. Los juegos se reinician diariamente, ofreciendo nuevos desafíos."
       },
-      "link-web": "",
+      "link-web": "https://gachanime.vercel.app/",
       "img": [
         { "title": "GACHANIME", "caption": "Caption 1", "url": "/assets/g6.PNG" },
         { "title": "GACHANIME", "caption": "Caption 2", "url": "/assets/g1.PNG" },
@@ -64,9 +64,9 @@ export const Projects = ({len}) => {
         { "title": "GACHANIME", "caption": "Caption 5", "url": "/assets/g12.PNG" },
         { "title": "GACHANIME", "caption": "Caption 5", "url": "/assets/g13.PNG" }
       ],
-      "link-front": "",
-      "link-back": "",
-      "tecs": ["Vue.js", "TypeScript", "JavaScript", "CSS", "NodeJS", "ExpressJS", "MongoDB"]
+      "link-front": "https://github.com/jjlorente/gachanime",
+      "link-back": "https://github.com/jjlorente/gachanime-backend",
+      "tecs": ["Vite", "React",  "TypeScript", "JavaScript", "CSS", "NodeJS", "ExpressJS", "MongoDB"]
     },
     3: {
       "title": "LoLBoard",
